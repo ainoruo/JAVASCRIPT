@@ -1,5 +1,5 @@
 'use strict';
-const numero = parseInt(prompt('Anna numero:'));
+const numero = parseInt(prompt('Anna luku:'));
 if (numero < 2) {
   document.querySelector('#numero1').innerHTML = 'Luku ei ole alkuluku.';
 } else {
