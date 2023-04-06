@@ -11,4 +11,10 @@ while (tulos !==6) {
 }
 
 let lista = document.createElement('ul');
-for (let i = 0;i < heitot.length; i++) {}
+for (let i = 0;i < heitot.length; i++) {
+   let item = document.createElement('li');
+  item.appendChild(document.createTextNode("Heitto " + (i+1) + ": " + heitot[i]));
+  lista.appendChild(item);
+}
+
+document.body.appendChild(lista);
